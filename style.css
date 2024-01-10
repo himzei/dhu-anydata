@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+    margin: 0; 
+    font-family: 'Roboto', sans-serif;
+}
+
+/* sns */
+.sns {
+    width: 80px;
+    height: 300px; 
+    position: fixed;
+    bottom: 20px; 
+    right: 20px; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sns div {
+    width: 70px; 
+    height: 70px; 
+    background-color: #22bb7b;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+}
+.sns div:nth-child(2){
+    background-color: #ffe100;
+    color: black;
+}
+.sns div:nth-child(3){
+    background-color: #0a64da;
+}
+.sns div:nth-child(4){
+    background-color: #f55336;
+}
+/* 네비게이션 */
+.navbar {
+    width: 100%;
+    height: 80px; 
+    display: flex;
+    justify-content: center;
+    
+}
+.navbar nav {
+    width: 1200px; 
+    height: 100%;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-box {
+    width: 140px;
+}
+.menu-box {
+    display: flex;
+}
+.menu-box p {
+    margin-left: 32px;
+    font-weight: 600;
+}
+
+/* 메인 */
+.main{
+    width: 100%; 
+    height: calc(100vh - 80px); 
+    background-image: url("https://images.unsplash.com/photo-1520529890308-f503006340b4?q=80&w=2067&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover; 
+    background-position: center center;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.main-container {
+    width: 1200px; 
+    height: 400px; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+}
+.main-container .main-image {
+    width: 300px;
+}
+.main-container h1 {
+    font-size: 18px;
+    margin: 40px 0;
+}
+.main-container button {
+    background-color: #F55336;
+    border: none;
+    padding: 20px;
+    color: white;
+    width: 240px;
+    border-radius: 50px;
+}
+
+/* 특징 */
+.feature {
+    width: 100%; 
+    height: 1000px; 
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    padding: 128px 0;
+    position: relative;
+}
+.feature-container {
+    width: 1200px; 
+    height: 800px; 
+    
+}
+.feature-description {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0; 
+    width: 1200px; 
+    height: 450px; 
+    background-color: rgba(255, 0, 0, 0.7); 
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.feature-description div {
+    width: 600px; 
+    height: 300px; 
+    color: white;
+}
+.feature-description div h2 {
+    font-size: 50px; 
+    font-weight: bold;
+}
+.feature-description div p{
+    font-size: 20px;
+    margin-top: 32px;
+}
+.image-traffic {
+
+    width: 400px; 
+    height: 600px; 
+    background-image: url("https://images.unsplash.com/photo-1519994007676-baabab4bf574?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-size: cover;
+    border-radius: 0px 75px 0 75px; 
+}
